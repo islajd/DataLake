@@ -1,0 +1,16 @@
+node_modules
+producer/node_modules
+package-lock.json
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+*.pyc
+__pycache__/
+venv/
+
+# Parcel build directories
+.build
+.idea
+.vscode
+.cache
