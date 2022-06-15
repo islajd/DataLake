@@ -3,7 +3,7 @@ const { default: Big } = require("big.js")
 const translateArray = array => array.map((item) => {
     return {
         ...item,
-        dateHour: +Big(new Date(item.InvoiceDate).getTime()).div(1000).toFixed(0)
+        datehour: +Big(new Date(item.InvoiceDate).getTime()).div(1000).toFixed(0)
     }
 })
 
